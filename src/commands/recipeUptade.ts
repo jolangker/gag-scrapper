@@ -13,7 +13,6 @@ export class RecipeUpdateCommand {
       const meta = await RecipeUpdateController.updateRecipes()
       msg.edit({ content: `✅ Successfully updated ${meta.totalRecipes} recipes.` })
     } catch (err: any) {
-      console.log(err)
       message.reply(err.message)
     }
   }
