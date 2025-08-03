@@ -3,7 +3,8 @@
   "main": "dist/bot.js",
   "type": "module",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "cross-env": "^10.0.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
@@ -15,7 +16,8 @@
     "fuse.js": "^7.1.0"
   },
   "scripts": {
-    "dev": "bun --watch src/bot.ts",
-    "build": "bun build src/bot.ts --target=node --outdir dist"
+    "dev": "cross-env NODE_ENV=development bun run src/bot.ts",
+    "prod": "cross-env NODE_ENV=production bun run src/bot.ts",
+    "build": "bun build src/bot.ts --target=bun --outdir dist"
   }
 }
