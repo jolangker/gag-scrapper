@@ -1,6 +1,7 @@
 import { Client, GatewayIntentBits, Message } from 'discord.js';
 import { RecipeCommand } from './commands/recipe';
 import { RecipeUpdateCommand } from './commands/recipeUptade';
+import { setupRecipeCron } from './jobs/recipeCron';
 
 const TOKEN = process.env.DISCORD_TOKEN;
 const PREFIX = '!';
@@ -13,6 +14,7 @@ const client = new Client({
 
 client.once('ready', () => {
   console.log(`✅ Bot ready to use as ${client.user?.tag}`);
+  setupRecipeCron(client)
 });
 
 client.on('messageCreate', async (message: Message) => {
