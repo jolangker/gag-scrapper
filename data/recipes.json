@@ -31,41 +31,6 @@
               "1x Onion",
               "1x Pear"
             ]
-          },
-          {
-            "verified": false,
-            "ingredients": [
-              "2x Tomato",
-              "1x Onion"
-            ]
-          },
-          {
-            "verified": true,
-            "ingredients": [
-              "5x Tomato"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Legendary",
-        "options": [
-          {
-            "verified": false,
-            "ingredients": [
-              "2x Blood Banana",
-              "2x Tomato"
-            ]
-          },
-          {
-            "verified": false,
-            "ingredients": [
-              "1x Bamboo",
-              "1x Mango",
-              "1x Pineapple",
-              "1x Tomato",
-              "1x Beanstalk"
-            ]
           }
         ]
       },
@@ -77,14 +42,6 @@
             "ingredients": [
               "1x Tomato",
               "1x Giant Pinecone"
-            ]
-          },
-          {
-            "verified": false,
-            "ingredients": [
-              "2x Sugar Apple",
-              "1x Pepper",
-              "1x Tomato"
             ]
           }
         ]
@@ -120,13 +77,6 @@
               "x1 Tomato",
               "x4 Bone Blossom"
             ]
-          },
-          {
-            "verified": false,
-            "ingredients": [
-              "x1 Bell Pepper",
-              "x4 Bone Blossom"
-            ]
           }
         ]
       }
@@ -157,14 +107,6 @@
               "x1 Corn",
               "x1 Cacao"
             ]
-          },
-          {
-            "verified": false,
-            "ingredients": [
-              "x1 Tomato",
-              "x1 Corn",
-              "x1 Elder Strawberry"
-            ]
           }
         ]
       },
@@ -172,43 +114,11 @@
         "name": "Mythical",
         "options": [
           {
-            "verified": true,
-            "ingredients": [
-              "2x Giant Pinecone",
-              "1x Tomato",
-              "1x Corn"
-            ]
-          },
-          {
             "verified": false,
             "ingredients": [
-              "1x Tomato",
-              "1x Corn",
-              "1x Elder Strawberry",
-              "1x Sugar Apple"
-            ]
-          },
-          {
-            "verified": false,
-            "ingredients": [
-              "1x Tomato",
-              "1x Corn",
-              "1x Elder Strawberry",
-              "1x Sugar Apple",
-              "1x Ember Lily"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Divine",
-        "options": [
-          {
-            "verified": true,
-            "ingredients": [
-              "3x Bone Blossom",
-              "1x Tomato",
-              "1x Corn"
+              "x1 Tomato",
+              "x1 Corn",
+              "x1 Elder Strawberry"
             ]
           }
         ]
@@ -232,8 +142,7 @@
               "x1 Pumpkin",
               "x1 Giant Pinecone",
               "x1 Apple",
-              "x1 Corn",
-              "x1 Pumpkin"
+              "x1 Corn"
             ]
           }
         ]
@@ -256,13 +165,6 @@
               "x1 Corn",
               "x1 Apple"
             ]
-          },
-          {
-            "verified": false,
-            "ingredients": [
-              "x1 Pumpkin",
-              "x1 Pineapple"
-            ]
           }
         ]
       },
@@ -275,16 +177,6 @@
               "x1 Apple",
               "x1 Pumpkin"
             ]
-          },
-          {
-            "verified": false,
-            "ingredients": [
-              "x1 Sugar Apple",
-              "x1 Feijoa",
-              "x1 Ember Lily",
-              "x1 Coconut",
-              "x1 Cauliflower"
-            ]
           }
         ]
       },
@@ -296,13 +188,6 @@
             "ingredients": [
               "x1 Coconut",
               "x1 Beanstalk"
-            ]
-          },
-          {
-            "verified": false,
-            "ingredients": [
-              "x1 Coconut",
-              "x1 Bone Blossom"
             ]
           }
         ]
@@ -320,7 +205,7 @@
           {
             "verified": false,
             "ingredients": [
-              "x2 Bone Blossom",
+              "x4 Bone Blossom",
               "x1 Coconut"
             ]
           }
@@ -345,9 +230,7 @@
             "verified": false,
             "ingredients": [
               "x1 Sugar Apple",
-              "x1 Watermelon",
-              "x1 Corn",
-              "x1 Sugarglaze"
+              "x1 Watermelon"
             ]
           },
           {
@@ -360,6 +243,20 @@
         ]
       },
       {
+        "name": "Legendary",
+        "options": [
+          {
+            "verified": false,
+            "ingredients": [
+              "x1 Coconut",
+              "x1 Apple",
+              "x1 Dragon Fruit",
+              "x1 Mango"
+            ]
+          }
+        ]
+      },
+      {
         "name": "Mythical",
         "options": [
           {
@@ -367,23 +264,6 @@
             "ingredients": [
               "x1 Coconut",
               "x1 Pineapple"
-            ]
-          },
-          {
-            "verified": false,
-            "ingredients": [
-              "x1 Sugar Apple",
-              "x1 Bone Blossom"
-            ]
-          },
-          {
-            "verified": false,
-            "ingredients": [
-              "x1 Grape",
-              "x1 Coconut",
-              "x1 Dragon Fruit",
-              "x1 Cactus",
-              "x1 Peach"
             ]
           }
         ]
@@ -408,6 +288,14 @@
             "ingredients": [
               "x1 Sugar Apple",
               "x1 Coconut",
+              "x3 Bone Blossom"
+            ]
+          },
+          {
+            "verified": false,
+            "ingredients": [
+              "x1 Sugar Apple",
+              "x1 Sugarglaze",
               "x3 Bone Blossom"
             ]
           }
@@ -480,13 +368,6 @@
             "verified": false,
             "ingredients": [
               "x1 Corn",
-              "x4 Bone Blossom"
-            ]
-          },
-          {
-            "verified": false,
-            "ingredients": [
-              "x1 Violet Corn",
               "x4 Bone Blossom"
             ]
           }
@@ -571,14 +452,6 @@
               "1x Tranquil Bloom",
               "1x Bone Blossom"
             ]
-          },
-          {
-            "verified": false,
-            "ingredients": [
-              "1x Sugar Apple",
-              "1x Bone Blossom",
-              "1x Tomato"
-            ]
           }
         ]
       },
@@ -653,13 +526,6 @@
               "x1 Watermelon",
               "x2 Corn"
             ]
-          },
-          {
-            "verified": false,
-            "ingredients": [
-              "x2 Corn",
-              "x1 Spiked Mango"
-            ]
           }
         ]
       },
@@ -669,8 +535,8 @@
           {
             "verified": false,
             "ingredients": [
-              "1x Sugar Apple",
-              "2x Corn"
+              "2x Sugar Apple",
+              "1x Corn"
             ]
           }
         ]
@@ -690,15 +556,7 @@
       },
       {
         "name": "Prismatic",
-        "options": [
-          {
-            "verified": false,
-            "ingredients": [
-              "x1 Sugarglaze",
-              "x4 Bone Blossom"
-            ]
-          }
-        ]
+        "options": []
       }
     ]
   },
@@ -786,16 +644,6 @@
               "1x Corn",
               "2x Sugar Apple"
             ]
-          },
-          {
-            "verified": false,
-            "ingredients": [
-              "1x Giant Pinecone",
-              "1x Apple",
-              "1x Pepper",
-              "1x Banana",
-              "1x Mushroom"
-            ]
           }
         ]
       },
@@ -808,6 +656,14 @@
               "1x Sugar Apple",
               "1x Pepper",
               "1x Banana"
+            ]
+          },
+          {
+            "verified": false,
+            "ingredients": [
+              "2x Sugar Apple",
+              "1x Corn",
+              "2x Bone Blossom"
             ]
           },
           {
@@ -826,9 +682,19 @@
           {
             "verified": false,
             "ingredients": [
-              "1x Violet Corn",
-              "1x Sugar Apple",
-              "3x Bone Blossom"
+              "1x Giant Pinecone",
+              "1x Apple",
+              "1x Pepper",
+              "1x Banana",
+              "1x Mushroom"
+            ]
+          },
+          {
+            "verified": false,
+            "ingredients": [
+              "x1 Violet Corn or Corn",
+              "x1 Sugar Apple",
+              "x3 Bone Blossom"
             ]
           }
         ]
@@ -867,16 +733,6 @@
               "x3 Bamboo",
               "x1 Hive Fruit",
               "x1 Corn"
-            ]
-          },
-          {
-            "verified": false,
-            "ingredients": [
-              "x1 Bamboo",
-              "x1 Lilac",
-              "x1 Lucky Bamboo",
-              "x1 Mango",
-              "x1 Violet Corn"
             ]
           }
         ]
@@ -917,7 +773,15 @@
       },
       {
         "name": "Prismatic",
-        "options": []
+        "options": [
+          {
+            "verified": false,
+            "ingredients": [
+              "x1 Coconut",
+              "x4 Bone Blossom"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -925,7 +789,7 @@
     "name": "Cake",
     "rarities": [
       {
-        "name": "Normal",
+        "name": "Uncommon",
         "options": [
           {
             "verified": false,
@@ -996,15 +860,6 @@
             "ingredients": [
               "x2 Kiwi",
               "x2 Banana or Corn"
-            ]
-          },
-          {
-            "verified": false,
-            "ingredients": [
-              "2x Banana",
-              "1x Blood Banana",
-              "1x Moon Melon",
-              "1x Soft Sunshine"
             ]
           }
         ]
@@ -1145,16 +1000,7 @@
       },
       {
         "name": "Prismatic",
-        "options": [
-          {
-            "verified": false,
-            "ingredients": [
-              "x1 Violet Corn",
-              "x1 Tomato",
-              "x3 Bone Blossom"
-            ]
-          }
-        ]
+        "options": []
       }
     ]
   }
