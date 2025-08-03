@@ -5,6 +5,8 @@ import { RecipeUpdateCommand } from './commands/recipeUptade';
 const TOKEN = process.env.DISCORD_TOKEN;
 const PREFIX = '!';
 
+console.log(`env mode: ${process.env.NODE_ENV}`)
+
 const client = new Client({
   intents: [GatewayIntentBits.MessageContent, GatewayIntentBits.GuildMessages, GatewayIntentBits.Guilds]
 });

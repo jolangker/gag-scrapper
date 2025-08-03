@@ -1,8 +1,8 @@
 import { EmbedBuilder } from "@discordjs/builders";
-import type { Recipe } from "../types/recipe";
+import type { Meta, Recipe } from "../types/recipe";
 import { formatDisplayDate } from "./dateUtils";
 
-export function formatRecipeResponse(recipe: Recipe) {
+export function formatRecipeResponse(recipe: Recipe, meta: Meta) {
   const rarityFields = recipe.rarities.map((rarity) => ({
     name: rarity.name,
     value: rarity.options.map((option) => {
@@ -14,10 +14,10 @@ export function formatRecipeResponse(recipe: Recipe) {
     .setTitle(`Recipe for ${recipe.name}`)
     .addFields(rarityFields)
     .setColor(0x8B4513)
-    .setFooter({
-      text: `✅ Confirmed recipes are tested and working.\n⏳ Pending recipes are unverified.\n❌ Failed recipes will be removed soon.\n\nData sourced from Grow a Garden Wiki.`,
-    })
     .setURL('https://growagarden.fandom.com/wiki/Cooking_Event')
+    .setFooter({
+      text: `✅ Confirmed recipes are tested and working.\n⏳ Pending recipes are unverified.\n❌ Failed recipes will be removed soon.\n\nData sourced from Grow a Garden Wiki.\nLast updated on ${formatDisplayDate(meta.lastUpdated)}`,
+    })
 
   return embed
 }

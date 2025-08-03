@@ -15,5 +15,10 @@ export interface Option {
 
 export interface Meta {
   lastUpdated: string
-  source: string
+  totalRecipes: string
+}
+
+export interface RecipeMeta {
+  recipe: Recipe
+  meta: Meta
 }
